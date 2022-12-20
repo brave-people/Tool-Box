@@ -1,0 +1,21 @@
+.arrow {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+  }
+  
+.arrow:before {
+    content: "";
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    left: 0;
+  }
+  
+.arrow:before {
+    transform: rotate(180deg);
+  }
