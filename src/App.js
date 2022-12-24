@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import sha256 from 'crypto-js/sha256'
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import MyNavbar from './components/Navbar'
 import Footer from './components/Footer'
