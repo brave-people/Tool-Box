@@ -4,7 +4,7 @@ function Profile() {
     const { userId } = useParams()
 
     return (
-        <div>
+        <div className="container mt-5">
             <h2>{`${userId}의 Profile Page`}</h2>
         </div>
     )

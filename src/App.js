@@ -9,17 +9,6 @@ import { Route, Routes } from 'react-router-dom'
 import Main from './pages/Main'
 
 const App = () => {
-    const [text, setText] = useState('')
-    const [hash, setHash] = useState('')
-
-    const handleInputChange = (event) => {
-        setText(event.target.value)
-
-        // do hash
-        const hash = sha256(text).toString()
-        setHash(hash)
-    }
-
     return (
         <>
             <MyNavbar />

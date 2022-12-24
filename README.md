@@ -19,7 +19,7 @@ Start project
 $ npm run dev
 ```
 
-
+<br />
 <hr />
 <div align=center>
   <img src="https://github.com/brave-people/Dev-Event/blob/master/static/bottom.png?raw=true" width="80%">
