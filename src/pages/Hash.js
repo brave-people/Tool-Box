@@ -59,7 +59,7 @@ const Hash = () => {
                                     id="exampleFormControlTextarea1"
                                     placeholder="input text"
                                     rows="7"
-                                    value={text}
+                                    defaultValue={text}
                                     onChange={handleInputChange}></textarea>
                             </div>
                         </form>

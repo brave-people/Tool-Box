@@ -6,15 +6,18 @@ import Profile from './pages/Profile'
 import Hash from './pages/Hash'
 import { Route, Routes } from 'react-router-dom'
 import Main from './pages/Main'
+import YmlToJson from './pages/YmlToJson'
 
 const App = () => {
     return (
         <>
             <MyNavbar />
             <Routes>
-                <Route path="/main" element={<Main />} />
+                <Route path="/" element={<Main />} />
+                <Route path="/tool-box" element={<Main />} />
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/hash" element={<Hash />} />
+                <Route path="/ymlToJson" element={<YmlToJson />} />
             </Routes>
             <Footer />
         </>
